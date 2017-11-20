@@ -1,23 +1,20 @@
 'use strict';
 /* globals $, app, socket */
 
-define('admin/plugins/quickstart', ['settings'], function(Settings) {
+define('admin/plugins/abp-whitelist', ['settings'], function(Settings) {
 
 	var ACP = {};
 
 	ACP.init = function() {
-		Settings.load('quickstart', $('.quickstart-settings'));
+		Settings.load('abp-whitelist', $('.abp-whitelist-settings'));
 
 		$('#save').on('click', function() {
-			Settings.save('quickstart', $('.quickstart-settings'), function() {
+			Settings.save('abp-whitelist', $('.abp-whitelist-settings'), function() {
 				app.alert({
 					type: 'success',
-					alert_id: 'quickstart-saved',
+					alert_id: 'abp-whitelist-saved',
 					title: 'Settings Saved',
-					message: 'Please reload your NodeBB to apply these settings',
-					clickfn: function() {
-						socket.emit('admin.reload');
-					}
+					message: 'Your Settings have been saved'
 				});
 			});
 		});

@@ -1,6 +1,6 @@
 {
-	"id": "nodebb-plugin-quickstart",
-	"url": "https://github.com/NodeBB/nodebb-plugin-quickstart",
+	"id": "nodebb-plugin-abp-whitelist",
+	"url": "https://github.com/dangerusslee/nodebb-plugin-abp-whitelist",
 	"library": "./library.js",
 	"hooks": [
 		{

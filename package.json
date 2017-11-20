@@ -1,28 +1,28 @@
 {
-  "name": "nodebb-plugin-quickstart",
-  "version": "0.2.3",
-  "description": "A starter kit for quickly creating NodeBB plugins",
-  "main": "library.js",
+  "name": "nodebb-plugin-abp-whitelist",
+  "version": "0.0.1",
+  "description": "A whitelist for AdBlockPlus",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-plugin-quickstart"
+    "url": "https://github.com/dangerusslee/nodebb-plugin-abp-whitelist"
   },
   "keywords": [
     "nodebb",
     "plugin",
-    "quickstart",
-    "shell"
+    "adblock",
+    "plus",
+    "whitelist"
   ],
   "author": {
-    "name": "psychobunny",
-    "email": "psycho.bunny@hotmail.com"
+    "name": "dangeRuss",
+    "email": "dangeRuss@phatwalletforums.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-plugin-quickstart/issues"
+    "url": "https://github.com/dangerusslee/nodebb-plugin-abp-whitelist/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {
-    "compatibility": "^1.0.0"
+    "compatibility": "^1.6.0"
   }
 }
